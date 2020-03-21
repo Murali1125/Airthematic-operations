@@ -4,6 +4,7 @@
 # compute  a+b*c
 # compute  a*b+c
 # compute  c+a/b
+# compute  a%b+c
 #------------------------------------------------------------------------------------
 
 
@@ -14,4 +15,5 @@ declare -A dictonary
 dictonary[operation1]=$(( a + b * c ))
 dictonary[operation2]=$(( a * b + c ))
 dictonary[operation3]=$(( c + a / b ))
+dictonary[operation4]=$(( a % b + c ))
 
