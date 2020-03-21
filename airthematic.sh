@@ -6,6 +6,7 @@
 # compute  c+a/b
 # compute  a%b+c
 # Store the results in a dictonary for every computation
+# read the values from dictionary into the array
 #------------------------------------------------------------------------------------
 
 
@@ -17,4 +18,6 @@ dictonary[operation1]=$(( a + b * c ))
 dictonary[operation2]=$(( a * b + c ))
 dictonary[operation3]=$(( c + a / b ))
 dictonary[operation4]=$(( a % b + c ))
+# read the dictionary values into array
+array=( ${dictonary[@]} )
 
