@@ -3,6 +3,7 @@
 # Write a program to take three inputs a, b & c
 # compute  a+b*c
 # compute  a*b+c
+# compute  c+a/b
 #------------------------------------------------------------------------------------
 
 
@@ -12,4 +13,5 @@ declare -A dictonary
 #compute the operations and store into variables
 dictonary[operation1]=$(( a + b * c ))
 dictonary[operation2]=$(( a * b + c ))
+dictonary[operation3]=$(( c + a / b ))
 
