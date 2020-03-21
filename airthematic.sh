@@ -5,6 +5,7 @@
 # compute  a*b+c
 # compute  c+a/b
 # compute  a%b+c
+# Store the results in a dictonary for every computation
 #------------------------------------------------------------------------------------
 
 
